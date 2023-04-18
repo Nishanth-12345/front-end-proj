@@ -54,3 +54,10 @@
     margin-right: 10rem;
     background-color: aquamarine;
 }
+@media  screen and (max-width: 550px){
+    .testimonial{
+        margin-top: 30rem;
+        margin-left: 15rem;
+        margin-bottom: 15rem;
+    }
+}
