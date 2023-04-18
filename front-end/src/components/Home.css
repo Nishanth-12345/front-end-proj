@@ -1,0 +1,10 @@
+.para-1{
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+@media  screen and (max-width: 768px){
+    .para-1{
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,134 @@
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    border-top: 2px solid rgb(78, 50, 78);
+    
+    
+}
+
+.nav-1 .ul-1 {
+  position: relative;
+
+}
+
+.ul-1 li{
+    
+    display: inline-block;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+
+}
+.li-1 {
+    border-right: 3px solid black;
+}
+.li-2{
+    border-right: 1px solid black;
+}
+
+.nav-3 .ul-2{
+    position: relative;
+    
+}
+
+.ul-2 li{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 11px;
+    padding-right: 10px;
+}
+
+.nav-4 .nav-5{
+    position: relative;
+}
+
+.nav-5 p{
+    display: inline-block;
+    
+    padding-left: 11px;
+    padding-right: 32px;
+    
+    font-size: 14px;
+}
+.li-5 {
+    border-left: 3px solid black;
+    
+}
+.li-4{
+    border-left: 1px solid black;
+}
+
+.nav-6 .img-2{
+    display: inline-block;
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-top: 10px;
+   padding-right: 20px;
+}
+.img-2 img{
+    width: 20px;
+}
+.vio{
+    background: violet;
+    width: 100%;
+    height: 5px;
+}
+.closeNavbar{
+  visibility: hidden;
+}
+.toggleNavbar{
+    visibility: hidden;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .navbar{
+        position: absolute;
+        background: wheat;
+        height:max-content;
+        width:80%;
+        border-radius: 1rem;
+        top: -500rem;
+        left: 50%;
+        padding: 1rem;
+        transform: translate(-50%);
+        z-index:2000;
+        box-shadow: 0 2px 4px (2,15,29,0.904);
+        transition: .5s ease-in-out;
+    }
+    .closeNavbar{
+       visibility: initial;
+        position: absolute;
+        top:1rem;
+        right:1.5rem;
+        color: rgba(255, 183, 0, 0.907);
+    }
+    .closeNavbar:hover{
+            color:  rgb(255, 200, 0);
+        
+        }
+        .actionNavbar{
+            top: 7rem;
+        }
+        
+        .toggleNavbar
+            .icon{
+                font-size: 25px;
+                color:  rgb(255, 200, 0);
+                visibility: initial;
+            }
+
+           
+}
+
